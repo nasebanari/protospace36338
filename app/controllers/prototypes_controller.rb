@@ -17,7 +17,7 @@ class PrototypesController < ApplicationController
       
     else
       render :new
-      @prototypes = @prototype.includes(:user)
+      
     end
   end  
 
